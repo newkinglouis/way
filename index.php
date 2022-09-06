@@ -2,9 +2,9 @@
 require('./vendor/autoload.php');
 use CustomCurl\Client;
 
-$originProtocol = 'https';
-$originSite     = 'www.travelsearchexpert.com';
-$thisSite       = 'wavehear.us';
+$originProtocol = 'http';
+$originSite     = 'baidu.com';
+$thisSite       = 'example.com';
 
 function get_content($url){
     return <<<EOL
